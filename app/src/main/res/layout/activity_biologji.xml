@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Biologji">
+
+    <TextView
+        android:id="@+id/biologji"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="10dp"
+        android:text="Biologji"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/pytja1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/biologji"
+        android:text="Ne cilin grup sistematik bene pjese pinguini ?" />
+
+    <RadioGroup
+        android:id="@+id/grupi1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/pytja1">
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Peshqit"
+            />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gjitaret"
+            />
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shpendet"
+            />
+
+        <RadioButton
+            android:id="@+id/radio4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zvarraniket"
+
+
+            />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/pytja2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/grupi1"
+        android:text="Cili hormon e rregullon permbajtjen e sasise se sheqerit ne gjak?" />
+
+    <RadioGroup
+        android:id="@+id/grupi2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/pytja2"
+        >
+
+        <RadioButton
+            android:id="@+id/radio5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Insulina" />
+
+        <RadioButton
+            android:id="@+id/radio6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Oksitocina" />
+
+        <RadioButton
+            android:id="@+id/radio7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adrenalina" />
+
+        <RadioButton
+            android:id="@+id/radio8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kalcitonina"
+
+
+            />
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/pytja3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/grupi2"
+        android:text="Cilat organe e ndertojne sistemin e frymemarrjes?" />
+
+    <RadioGroup
+        android:id="@+id/grupi3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/pytja3"
+        >
+
+        <RadioButton
+            android:id="@+id/radio9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zvagra e gojes, fyti, ezofagu, lukthi, zorret" />
+
+        <RadioButton
+            android:id="@+id/radio10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hunda, fyti, laringu, trakeja, bronket" />
+
+        <RadioButton
+            android:id="@+id/radio11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zemra, gjaku, limfa dhe enet e tyre" />
+
+        <RadioButton
+            android:id="@+id/radio12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Veshkat, kanalet urinore dhe fshikeza e urines"
+
+
+            />
+
+    </RadioGroup>
+</RelativeLayout>

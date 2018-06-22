@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Test">
+
+
+<TextView
+    android:id="@+id/testi1"
+    android:layout_width="match_parent"
+    android:layout_height="42dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginStart="0dp"
+    android:layout_marginLeft="0dp"
+    android:text="Testi Matures pjesa pare"
+    android:paddingTop="10dp"
+    android:textAlignment="center"/>
+
+<TextView
+    android:id="@+id/gjuheshqipe"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginLeft="0dp"
+    android:layout_marginStart="0dp"
+    android:layout_marginTop="43dp"
+    android:paddingLeft="10dp"
+    android:text="GJUHE SHQIPE"
+    android:textSize="18sp" />
+
+
+<TextView
+    android:id="@+id/pytja1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="76dp"
+    android:text="Kush e shkroi vepren Kanuni i Leke Dukagjinit ?" />
+
+<RadioGroup
+    android:id="@+id/grupi1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_below="@+id/pytja1">
+
+    <RadioButton
+        android:id="@+id/radio1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Naim Frasheri"
+        />
+
+    <RadioButton
+        android:id="@+id/radio2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jeronnim De Rada"
+        />
+    <RadioButton
+        android:id="@+id/radio3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Leke Dukagjini"
+        />
+
+    <RadioButton
+        android:id="@+id/radio4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shtjefan Gjecovi"
+
+
+        />
+
+</RadioGroup>
+
+<TextView
+    android:id="@+id/pytja2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/grupi1"
+    android:text="Gjej emrin ne trajten e shquar ?" />
+
+<RadioGroup
+    android:id="@+id/grupi2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/pytja2"
+    >
+
+    <RadioButton
+        android:id="@+id/radio5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mur" />
+
+    <RadioButton
+        android:id="@+id/radio6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="vajza" />
+
+    <RadioButton
+        android:id="@+id/radio7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="vajze" />
+
+    <RadioButton
+        android:id="@+id/radio8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mace"
+
+
+        />
+
+</RadioGroup>
+<TextView
+    android:id="@+id/pytja3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/grupi2"
+    android:text="Gjej fjaline ne te cilen ka folje ndihmese ?" />
+
+<RadioGroup
+    android:id="@+id/grupi3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/pytja3"
+    >
+
+    <RadioButton
+        android:id="@+id/radio9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lumi ishte i heshtur nen mbulesen e bardhe" />
+
+    <RadioButton
+        android:id="@+id/radio10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gjethet binin ne toke" />
+
+    <RadioButton
+        android:id="@+id/radio11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ata veshtroni,po nuk flisnin" />
+
+    <RadioButton
+        android:id="@+id/radio12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Naten,yjet dukeshin sikur po hidhnin valle"
+
+
+        />
+
+</RadioGroup>
+
+    <Button
+        android:id="@+id/vazhdo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="Vazhdo" />
+
+</RelativeLayout>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kimi">
+
+    <TextView
+        android:id="@+id/kimia"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="10dp"
+        android:text="KIMIA"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/pytja1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/kimia"
+        android:text="Cili oksid ka perqindje me te madhe te metalit ?" />
+
+    <RadioGroup
+        android:id="@+id/grupi1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/pytja1">
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BeO"
+            />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MgO"
+            />
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BaO"
+            />
+
+        <RadioButton
+            android:id="@+id/radio4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CaO"
+
+
+            />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/pytja2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/grupi1"
+        android:text="Cili metal gjendet ne bllokun p te elementeve ne sistemin periodik ?" />
+
+    <RadioGroup
+        android:id="@+id/grupi2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/pytja2"
+        >
+
+        <RadioButton
+            android:id="@+id/radio5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kalciumi" />
+
+        <RadioButton
+            android:id="@+id/radio6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bakri" />
+
+        <RadioButton
+            android:id="@+id/radio7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kallaji" />
+
+        <RadioButton
+            android:id="@+id/radio8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Urani"
+
+
+            />
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/pytja3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/grupi2"
+        android:text="Cili komponim organik ka atome te karbonit ne hibridizim sp?" />
+
+    <RadioGroup
+        android:id="@+id/grupi3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/pytja3"
+        >
+
+        <RadioButton
+            android:id="@+id/radio9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Etani" />
+
+        <RadioButton
+            android:id="@+id/radio10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Propeni" />
+
+        <RadioButton
+            android:id="@+id/radio11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Acetileni" />
+
+        <RadioButton
+            android:id="@+id/radio12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Izopreni"
+
+
+            />
+
+    </RadioGroup>
+</RelativeLayout>

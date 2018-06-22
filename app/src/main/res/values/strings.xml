@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Test Mature</string>
+    <string name="email">Email</string>
+    <string name="Fjalekalimi">Fjalekalimi</string>
+    <string name="fjalekalimi">fjalkalimi</string>
+    <string name="perdoruesi" />
+    <string name="Perdoruesi">Perdoruesi</string>
+    <string name="Kyqu">Kyqu</string>
+    <string name="Regjistrimi">Regjistrohu ketu!</string>
+    <string name="Emri">Emri</string>
+    <string name="Mbiemri">Mbiemri</string>
+    <string name="Age">Mosha</string>
+    <string name="Hape">Hape</string>
+    <string name="Mbylle">Mbylle</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

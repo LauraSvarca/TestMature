@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".info"
+    android:background="@drawable/background1">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+
+        android:paddingTop="20dp"
+        android:text="      Perapara se te filloni testin
+       ju lutemi te lexoni me vemendje rregullat e testit te matures!"
+        android:textAlignment="center"
+        android:textColor="#FF0000"/>
+
+
+    <TextView
+
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="337dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/text1"
+        android:text="   Testi i Matures permban gjithesej 100 pyetje
+    dhe eshte i ndare ne dy pjese.
+    Pjesa pare eshte test i perbashket per te gjitha drejtimet,
+    kurse pjesa dyte eshte e specifikuar varesisht nga
+    drejtimi i zgjeshur.
+    Rregullat qe duhet te ndiqen gjate testimit jane:
+         - Testit i qaseni vetem nje here, qka do te thot qe nuk
+            ju lejoht te filloni testin per te dyten here.
+         - Kalueshmeria eshte mbi 100 pike nga te dyja testet.
+         - Ekziston vetem nje pergjigje e sakt.
+
+
+              SUKSESE!"
+
+        android:paddingTop="20dp"
+        android:textColor="#000000"
+        />
+
+    <Button
+        android:id="@+id/fillo"
+        android:layout_width="105dp"
+        android:layout_height="37dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="94dp"
+        android:layout_marginEnd="37dp"
+       android:layout_marginRight="37dp"
+        android:text="fillo"
+       android:background="#2AC22A"
+        />
+
+
+</RelativeLayout>

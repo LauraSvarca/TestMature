@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/Kryefaqja"
+        android:title="Kryefaqja"></item>
+   <item  android:id="@+id/histroriku"
+       android:title="Historiku"></item>
+    <item  android:id="@+id/Location"
+        android:title="Location"></item>
+    <item  android:id="@+id/Shkyqu"
+        android:title="Shkyqu"></item>
+</menu>

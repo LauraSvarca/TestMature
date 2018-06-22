@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.ardita.myapplication.MainActivity">
+
+ <!--   <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#028F1F"
+        android:minHeight="?attr/actionBarSize"
+        android:id="@+id/toolbar"
+
+        /> -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="79dp"
+        android:contentDescription="Test Mature"
+        app:srcCompat="@drawable/images" />
+
+    <EditText
+        android:id="@+id/editPerdoruesi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editFjalekalimi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-218dp"
+        android:drawableLeft="@drawable/ic_action_perdoruesi"
+        android:ems="10"
+        android:hint="@string/Perdoruesi"
+        android:inputType="textEmailAddress"
+        android:text="admin" />
+
+    <EditText
+        android:id="@+id/editFjalekalimi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="218dp"
+        android:drawableLeft="@drawable/ic_action_fjalkalimi"
+        android:ems="10"
+        android:hint="@string/Fjalekalimi"
+        android:inputType="textPassword"
+        android:text="admin" />
+
+    <Button
+        android:id="@+id/Kyqu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="173dp"
+        android:hint="@string/Kyqu"
+        android:text="Kyqu" />
+
+
+    <TextView
+        android:id="@+id/Regjistrohu"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="141dp"
+        android:hint="@string/Regjistrimi"
+        android:text="Regjistrohu ketu."
+        android:textAlignment="center" />
+
+</RelativeLayout>
+
